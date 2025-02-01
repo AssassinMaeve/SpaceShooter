@@ -1,6 +1,6 @@
 # SpaceShooter
 
-SpaceShooter is a 2D space shooter game developed in Java. The game features a scrolling background, player-controlled spaceship, and various enemies. The objective of the game is to survive as long as possible while destroying enemy ships and avoiding obstacles.
+SpaceShooter is a 2D space shooter game developed in Java. The game features a scrolling background, player-controlled spaceship, and obstacles. The objective of the game is to survive as long as possible while destroying and avoiding obstacles.
 
 ## Getting Started
 
