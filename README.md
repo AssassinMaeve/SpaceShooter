@@ -1,19 +1,21 @@
+# SpaceShooter
+
+SpaceShooter is a 2D space shooter game developed in Java. The game features a scrolling background, player-controlled spaceship, and various enemies. The objective of the game is to survive as long as possible while destroying enemy ships and avoiding obstacles.
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-## Folder Structure
+### Prerequisites
 
-The workspace contains two folders by default, where:
+- Java Development Kit (JDK) 8 or higher
+- Visual Studio Code
+- Git
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Installing
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **Clone the repository:**
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# SpaceShooter
+   ```sh
+   git clone https://github.com/your-username/SpaceShooter.git
+   cd SpaceShooter
