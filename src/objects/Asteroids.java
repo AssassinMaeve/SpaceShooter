@@ -55,7 +55,7 @@ public class Asteroids implements Updatable, Renderable {
         this.y = -getHeight();
 
         // Load the asteroid image.
-        asteroid = ImageIO.read(new File("C://College//My Projects//SpaceShooter//res//asteroids.png"));
+        asteroid = ImageIO.read(new File("res\\asteroids.png"));
         // Add the asteroid to the renderer and updater.
         Renderer.addRenderableObjects(this);
         Updater.addUpdatableObjects(this);

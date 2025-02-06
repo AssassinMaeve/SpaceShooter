@@ -53,7 +53,7 @@ public class Spaceship implements Renderable, Updatable {
         this.y = y;
 
         // Load the image of the spaceship.
-        spaceShip = ImageIO.read(new File("C://College//My Projects//SpaceShooter//res//spaceship.png"));
+        spaceShip = ImageIO.read(new File("res\\spaceship.png"));
 
         // Add the spaceship to the renderer and updater.
         Renderer.addRenderableObjects(this);
@@ -113,7 +113,7 @@ public class Spaceship implements Renderable, Updatable {
         if (Input.keys[Input.SPACE] && timer.isRinging()) {
             new Bullets(x + (width / 2), y);
             timer.resetTimer();
-            Sound.playSound("C://College//My Projects//SpaceShooter//res//SpaceshipShoot.wav");
+            Sound.playSound("res\\SpaceshipShoot.wav");
         }
 
         // Check for collisions with asteroids.
@@ -130,7 +130,7 @@ public class Spaceship implements Renderable, Updatable {
             }
 
             Updater.removeUpdatableObjects(collidingObject);
-            Sound.playSound("C://College//My Projects//SpaceShooter//res//PlayerDied.wav");
+            Sound.playSound("res\\PlayerDied.wav");
         }
     }
 
