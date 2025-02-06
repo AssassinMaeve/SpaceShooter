@@ -40,7 +40,7 @@ public class Bullets implements Updatable, Renderable {
         this.y = y;
 
         // Load the bullet image.
-        bullet = ImageIO.read(new File("C://College//My Projects//SpaceShooter//res//Bullet.png"));
+        bullet = ImageIO.read(new File("res\\Bullet.png"));
 
         // Add the bullet to the renderer and updater.
         Renderer.addRenderableObjects(this);
@@ -105,7 +105,7 @@ public class Bullets implements Updatable, Renderable {
             }
 
             Updater.removeUpdatableObjects(collidingObject); // Remove the colliding object from the updater
-            Sound.playSound("C://College//My Projects//SpaceShooter//res//Explosion.wav"); // Play explosion sound
+            Sound.playSound("res\\Explosion.wav"); // Play explosion sound
         }
     }
 

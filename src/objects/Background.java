@@ -35,7 +35,7 @@ public class Background implements Renderable, Updatable {
     public Background(double y) throws IOException {
         this.y = y;     // Initialize the y position of the background
         
-        background = ImageIO.read(new File("C://College//My Projects//SpaceShooter//res//Space3.jpg"));      // Load the background image
+        background = ImageIO.read(new File("res\\Space3.jpg"));      // Load the background image
         
         // Add the background to the renderer and updater.
         Renderer.addRenderableObjects(this);    // Add the background to the renderer
