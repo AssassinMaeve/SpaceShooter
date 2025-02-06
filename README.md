@@ -12,7 +12,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 - Visual Studio Code
 - Git
 
-### Installing
+## Installing:
 
    ```sh
    git clone https://github.com/AssassinMaeve/SpaceShooter.git
@@ -41,7 +41,7 @@ Follow these instructions to get a copy of the project up and running on your lo
    - This project is licensed under the MIT License.
 
    ```sh
-   Make sure to replace `https://github.com/your-username/SpaceShooter.git` with the actual URL of your repository.
+   Make sure to replace `https://github.com/AssassinMaeve/SpaceShooter.git` with the actual URL of your repository.
    Make sure to replace `https://github.com/your-username/SpaceShooter.git` with the actual URL of your repository.
    ```
 
