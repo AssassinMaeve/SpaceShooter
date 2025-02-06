@@ -17,7 +17,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/SpaceShooter.git
+   git clone https://github.com/AssassinMaeve/SpaceShooter.git
    cd SpaceShooter
    ```
 
@@ -26,17 +26,11 @@ Follow these instructions to get a copy of the project up and running on your lo
    ```sh
    code .
    ```
-
-## Build the project:
-
-   ```sh
-   javac -d bin src/**/*.java
-   ```
-
+   
 ## Run the project:
 
    ```sh
-   javac -d bin src/**/*.java
+   java -cp bin core.Entry
    ```
 
 ## Features
