@@ -14,8 +14,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Installing
 
-1. **Clone the repository:**
-
    ```sh
    git clone https://github.com/AssassinMaeve/SpaceShooter.git
    cd SpaceShooter
@@ -26,7 +24,7 @@ Follow these instructions to get a copy of the project up and running on your lo
    ```sh
    code .
    ```
-   
+
 ## Run the project:
 
    ```sh
